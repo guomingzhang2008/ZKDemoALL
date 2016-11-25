@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CB29CCE1DE8142200CE39BF /* 测试1.docx in Resources */ = {isa = PBXBuildFile; fileRef = 5CB29CCB1DE8142200CE39BF /* 测试1.docx */; };
+		5CB29CCF1DE8142200CE39BF /* 测试2.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 5CB29CCC1DE8142200CE39BF /* 测试2.xlsx */; };
+		5CB29CD01DE8142200CE39BF /* 测试3.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 5CB29CCD1DE8142200CE39BF /* 测试3.pptx */; };
 		5CFCFEA71DE7FDD600AAF272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCFEA61DE7FDD600AAF272 /* main.m */; };
 		5CFCFEAA1DE7FDD600AAF272 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCFEA91DE7FDD600AAF272 /* AppDelegate.m */; };
 		5CFCFEAD1DE7FDD600AAF272 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCFEAC1DE7FDD600AAF272 /* ViewController.m */; };
@@ -15,6 +18,7 @@
 		5CFCFEB51DE7FDD600AAF272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFCFEB31DE7FDD600AAF272 /* LaunchScreen.storyboard */; };
 		5CFCFEC01DE7FDD600AAF272 /* ZKDemoALLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCFEBF1DE7FDD600AAF272 /* ZKDemoALLTests.m */; };
 		5CFCFECB1DE7FDD600AAF272 /* ZKDemoALLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCFECA1DE7FDD600AAF272 /* ZKDemoALLUITests.m */; };
+		5CFCFEE01DE80B7F00AAF272 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCFEDF1DE80B7F00AAF272 /* QuickLook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CB29CCB1DE8142200CE39BF /* 测试1.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "测试1.docx"; sourceTree = "<group>"; };
+		5CB29CCC1DE8142200CE39BF /* 测试2.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "测试2.xlsx"; sourceTree = "<group>"; };
+		5CB29CCD1DE8142200CE39BF /* 测试3.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "测试3.pptx"; sourceTree = "<group>"; };
 		5CFCFEA21DE7FDD600AAF272 /* ZKDemoALL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKDemoALL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFCFEA61DE7FDD600AAF272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CFCFEA81DE7FDD600AAF272 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		5CFCFEC61DE7FDD600AAF272 /* ZKDemoALLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKDemoALLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFCFECA1DE7FDD600AAF272 /* ZKDemoALLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKDemoALLUITests.m; sourceTree = "<group>"; };
 		5CFCFECC1DE7FDD600AAF272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CFCFEDF1DE80B7F00AAF272 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFCFEE01DE80B7F00AAF272 /* QuickLook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,7 @@
 				5CFCFEBE1DE7FDD600AAF272 /* ZKDemoALLTests */,
 				5CFCFEC91DE7FDD600AAF272 /* ZKDemoALLUITests */,
 				5CFCFEA31DE7FDD600AAF272 /* Products */,
+				5CFCFEDE1DE80B7F00AAF272 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +113,9 @@
 			children = (
 				5CFCFEA81DE7FDD600AAF272 /* AppDelegate.h */,
 				5CFCFEA91DE7FDD600AAF272 /* AppDelegate.m */,
+				5CB29CCB1DE8142200CE39BF /* 测试1.docx */,
+				5CB29CCC1DE8142200CE39BF /* 测试2.xlsx */,
+				5CB29CCD1DE8142200CE39BF /* 测试3.pptx */,
 				5CFCFEAB1DE7FDD600AAF272 /* ViewController.h */,
 				5CFCFEAC1DE7FDD600AAF272 /* ViewController.m */,
 				5CFCFEAE1DE7FDD600AAF272 /* Main.storyboard */,
@@ -138,6 +151,14 @@
 				5CFCFECC1DE7FDD600AAF272 /* Info.plist */,
 			);
 			path = ZKDemoALLUITests;
+			sourceTree = "<group>";
+		};
+		5CFCFEDE1DE80B7F00AAF272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CFCFEDF1DE80B7F00AAF272 /* QuickLook.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +228,7 @@
 				TargetAttributes = {
 					5CFCFEA11DE7FDD600AAF272 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G8SS9MUVYA;
 						ProvisioningStyle = Automatic;
 					};
 					5CFCFEBA1DE7FDD600AAF272 = {
@@ -247,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CFCFEB51DE7FDD600AAF272 /* LaunchScreen.storyboard in Resources */,
+				5CB29CCE1DE8142200CE39BF /* 测试1.docx in Resources */,
 				5CFCFEB21DE7FDD600AAF272 /* Assets.xcassets in Resources */,
+				5CB29CD01DE8142200CE39BF /* 测试3.pptx in Resources */,
 				5CFCFEB01DE7FDD600AAF272 /* Main.storyboard in Resources */,
+				5CB29CCF1DE8142200CE39BF /* 测试2.xlsx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +449,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8SS9MUVYA;
 				INFOPLIST_FILE = ZKDemoALL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Strong.ZKDemoALL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +462,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8SS9MUVYA;
 				INFOPLIST_FILE = ZKDemoALL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Strong.ZKDemoALL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +536,7 @@
 				5CFCFED11DE7FDD600AAF272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CFCFED21DE7FDD600AAF272 /* Build configuration list for PBXNativeTarget "ZKDemoALLTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +545,7 @@
 				5CFCFED41DE7FDD600AAF272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CFCFED51DE7FDD600AAF272 /* Build configuration list for PBXNativeTarget "ZKDemoALLUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +554,7 @@
 				5CFCFED71DE7FDD600AAF272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
